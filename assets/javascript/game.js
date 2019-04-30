@@ -33,14 +33,14 @@ $(document).ready(function() {
     }
     
     function winner() {
-        alert("You Won!!");
+        alert("You are winner!!");
         wins++;
         $("#numberWins").text(wins);
         reset();
     }
     
     function loser() {
-        alert("You Lose!!");
+        alert("You're a loser!!");
         losses++;
         $("#numberLosses").text(losses);
         reset();
